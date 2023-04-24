@@ -64,12 +64,11 @@ function numberLine() {
             document.getElementById("result2").innerHTML = sum + " is larger than 100";
         }
     }
-    else {
+    else  {
         document.getElementById("result2").innerHTML = sum + " Please enter valid numbers";
-
     }
-    
 }
+    
 
 /* Greater than Equal to 5 - 
         given 2 numbers & print true when both number >=5, else false
@@ -77,11 +76,13 @@ function numberLine() {
 function compareToFive() {
     let num1 = document.getElementById("input4").value;
     let num2 = document.getElementById("input5").value;
+ //   num1 = Number(num1);
+ //   num2 = Number(num2);
     if (num1 >= 5 && num2 >= 5) {
-        document.getElementById.apply("result3").innerHTML = sum + " is equal to 0";
+        document.getElementById("result3").innerHTML = "true";
     }
     else {
-
+        document.getElementById("result3").innerHTML = "false";
     }
 }
 
@@ -92,4 +93,10 @@ function comparePair() {
     let value1b = document.getElementById("input7").value;
     let value2a = document.getElementById("input8").value;
     let value2b = document.getElementById("input9").value;
+    if (value1a === value1b || value2a === value2b) {
+        document.getElementById("result4").innerHTML = "true";
+    }
+    else {
+        document.getElementById("result4").innerHTML = "false";
+    }
 }

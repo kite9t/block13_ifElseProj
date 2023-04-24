@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,47 +27,52 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <h1>Check Values Below</h1>
     <!--truthy, 1 input, goes to function isTruthy, return to print-->
-    <h2>Is Truthy - Check whether value is truthy or falsy</h2>
-    <div>
-        <input type="text" id="input1">
-        <button onclick="isTruthy()">Check</button>
+    <div class="block1">
+        <h2>Is Truthy - Check whether value is truthy or falsy</h2>
+        <div>
+            <input type="text" id="input1">
+            <button onclick="isTruthy()">Check</button>
+        </div>
+        <div class="result" id="result1"></div>
     </div>
-    <div class="result" id="result1"></div>
-
     <!--Number Line, 2 input, goes to function numberLine, return to print-->
-    <h2>Number Line - Check the sum of 2 numbers </h2>
-    <div>
-        <input type="number" id="input2">
-        <input type="number" id="input3">
-        <button onclick="numberLine()">Check</button>
+    <div class="block2">
+        <h2>Number Line - Check the sum of 2 numbers </h2>
+        <div>
+            <input type="number" id="input2">
+            <input type="number" id="input3">
+            <button onclick="numberLine()">Check</button>
+        </div>
+        <div class="result" id="result2"></div>
     </div>
-    <div class="result" id="result2"></div>
-
     <!--greater than/equal to 5, 2 input, goes to function compareToFive, return to print-->
-    <h2>Greater Than or Equal to 5 - Check whether both numbers are >= to 5 </h2>
-    <div>
-        <input type="number" id="input4">
-        <input type="number" id="input5">
-        <button onclick="compareToFive()">Check</button>
+    <div class="block3">
+        <h2>Greater Than or Equal to 5 - Check whether both numbers are >= to 5 </h2>
+        <div>
+            <input type="number" id="input4">
+            <input type="number" id="input5">
+            <button onclick="compareToFive()">Check</button>
+        </div>
+        <div class="result" id="result3"></div>
     </div>
-    <div class="result" id="result3"></div>
 
     <!--pair and compare, 4 input, goes to function comparePair, return to print-->
-    <h2>Pair and Compare - Check 2 sets of values with strict comparison operators are true or false</h2>
-    <div>
-        <input type="text" id="input6">
-        <input type="text" id="input7">
-        <input type="text" id="input8">
-        <input type="text" id="input9">
-        <button onclick="comparePair()">Check</button>
+    <div class="block4">
+        <h2>Pair and Compare - Check 2 sets of values with strict comparison operators are true or false</h2>
+        <div>
+            <input type="text" id="input6">
+            <input type="text" id="input7">
+            <input type="text" id="input8">
+            <input type="text" id="input9">
+            <button onclick="comparePair()">Check</button>
+        </div>
+        <div class="result" id="result4"></div>
     </div>
-    <div class="result" id="result4"></div>
-
-
-
     <script src="script.js"></script>
 </body>
+
 </html>

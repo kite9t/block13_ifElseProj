@@ -1,0 +1,19 @@
+.block1 {
+    background-color: lightgray;
+    padding: 1em;
+}
+.block2{
+    padding: 1em;
+}
+.block3 {
+    background-color: lightgray;
+    padding: 1em;
+}
+.block4{
+    padding: 1em;
+}
+.result{
+    font-weight: bold;
+    color: red;
+    margin-top: 5px;
+}
